@@ -1,3 +1,13 @@
+/* html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+} */
+
+
 :root {
     --primery-text-color: #434455;
     --title-text-color: #2E2F42;
@@ -87,6 +97,8 @@ color: var(--accent-color);
 }
 .list{
     list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -103,14 +115,19 @@ color: var(--accent-color);
         text-align: center;
         letter-spacing: 0.02em;
         line-height: 1.07;
+        margin-top: 0;
+        margin-bottom: 48px;
 }
 .hero{
     background-color: var(--title-text-color);
+    text-align: center;
+    height: 600px;
 }
 
 
 
 /* main index */
+
 
 
 /* sectio 1 */
@@ -122,6 +139,7 @@ color: var(--accent-color);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-top: 0;
 }
  
 
@@ -129,6 +147,8 @@ color: var(--accent-color);
 /* sectio 4 */
 .section-third{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .work-list{
     background-color: #FFFFFF;
@@ -167,8 +187,10 @@ color: var(--accent-color);
 button {
     color: var(--butt-wh-text);
     background-color: var(--back-graund-butt-color);
+    border: 1px solid transparent;
 }
 .button-portf {
+    display: inline-block;
     color: var(--back-graund-butt-color);
     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
@@ -177,6 +199,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    min-width: 69px;
+    min-height: 48px;
+    padding: 12px 24px;
+    text-align: center;
+    border: #E7E9FC;
 }
 .button-portf:hover,
 .button-portf:focus {
@@ -185,6 +213,7 @@ button {
         cursor: pointer;
 }
 .button-hero {
+    display: inline-block;
     color: var(--butt-wh-text);
         background-color: var(--back-graund-butt-color);
         font-family: 'Roboto', sans-serif;
@@ -193,6 +222,11 @@ button {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
+            border-radius: 4px;
+            padding: 16px 24px;
+            text-align: center;
+            min-width: 169px;
+            min-height: 56px;
 }
 .button-hero:hover,
 .button-hero:focus{
@@ -212,6 +246,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 /* h3 */
@@ -222,4 +258,32 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+.section{
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    width: 1152px;
+    outline: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
