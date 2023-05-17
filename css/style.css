@@ -37,6 +37,9 @@ ul{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
+        margin-right: 76px;
 }
 .studio{
     color: var(--title-text-color);
@@ -66,7 +69,26 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
+    display: flex;
+    align-items: center;
 }
+.list .menu{
+    /* margin-right: 40px; */
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+/* .list .menu:last-child{
+    margin-right: 0;
+}
+.list .menu:first-child{
+    margin-left: 76px;
+}  */
+
+.list .menu + .menu{
+    margin-left: 40px;
+}
+
 .site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
@@ -81,7 +103,8 @@ ul{
 color: var(--accent-color);
 }
 .auth-nav{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 .nav-list {
     color: var(--primery-text-color);
@@ -99,8 +122,18 @@ color: var(--accent-color);
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 
 }
+
+
+
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
@@ -140,9 +173,17 @@ color: var(--accent-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         margin-top: 0;
+        margin-bottom: 0;
 }
  
+/* sectio 2 */
+/* .section-one{
+    align-items: center;
+} */
+.list .section-one + .section-one{
+    margin-left: 24px;
 
+}
 
 /* sectio 4 */
 .section-third{
@@ -235,6 +276,44 @@ button {
 }
 
 
+.butt{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 96px; */
+    margin-bottom: 72px;
+}
+.butt:last-child{
+    margin-right: 0;
+    
+}
+.list .button-portf{
+margin-right: 24px;
+align-items: center;
+
+}
+
+
+
+
+/* .list .menu {
+    /* margin-right: 40px; */
+    /* display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+} */
+
+/* .list .menu:last-child{
+    margin-right: 0;
+}
+.list .menu:first-child{
+    margin-left: 76px;
+}  */
+
+/* .list .menu+.menu {
+    margin-left: 40px;
+} */ */
+
+
 
 /* h2 */
 .section-title {
@@ -280,10 +359,58 @@ button {
 
 
 .container{
-    width: 1152px;
+    width: 1158px;
     outline: solid black 1px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* portf */
+.portf{
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.portf .portf-item{
+    /* width: 360px; */
+    width: ((100%-48px) /3);
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+.portf-item:nth-last-child(-n+3){
+    margin-bottom: 120px;
+}
+
+.portf-item:nth-child(3n){
+    margin-right: 0;
+}
+
+
+
+
+
+
+.footcontent{
+    
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.foot-text{
+    width: 264px;
+    text-align: left;
 }
