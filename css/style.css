@@ -190,6 +190,7 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         margin-top: 0;
         margin-bottom: 0;
+        text-align: center;
 }
  
 /* sectio 2 */
@@ -227,8 +228,12 @@ padding: 24px 0;
 }
 .work-list{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
-
+.name-person{
+    padding: 32px 16px
+}
 
 
 
@@ -378,6 +383,7 @@ align-items: center;
     color: var(--title-text-color);
     margin-top: 0;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 
