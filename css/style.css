@@ -137,6 +137,7 @@ padding: 24px 0;
 .main-nav{
     display: flex;
     align-items: center;
+    padding: 0 15px;
     
 }
 .page-header{
@@ -160,6 +161,7 @@ padding: 24px 0;
         line-height: 1.07;
         margin-top: 0;
         margin-bottom: 48px;
+        max-width: 496px;
 }
 .hero{
     background-color: var(--title-text-color);
@@ -295,7 +297,11 @@ button {
             padding: 16px 24px;
             text-align: center;
             min-width: 169px;
-            min-height: 56px;
+            /* min-height: 56px; */
+            display: block;
+            height: 56px;
+            border: none;
+            cursor: pointer;
 }
 .button-hero:hover,
 .button-hero:focus{
