@@ -108,7 +108,8 @@ color: var(--accent-color);
 .auth-nav{
     font-style: normal;
     margin-left: auto;
-    gap: 40px
+    gap: 40px;
+    padding: 24px 0
 }
 .nav-list {
     color: var(--primery-text-color);
@@ -130,7 +131,9 @@ color: var(--accent-color);
 gap: 40px;
 padding: 24px 0;
 }
-
+.sectionsones{
+    gap: 24px;
+}
 
 
 
@@ -193,11 +196,12 @@ padding: 24px 0;
 /* .section-one{
     align-items: center;
 } */
-.section-one{
+/* .section-one{
     width: calc((100% - 72px) / 4);
-}
+} */
 .list .section-one + .section-one{
     margin-left: 24px;
+    width: calc((100% - 72px) / 4)
 
 }
 .one{
@@ -210,6 +214,7 @@ padding: 24px 0;
 /* sectio 3 */
 .two{
     margin-bottom: 72px;
+    padding-bottom: 120px;
 }
 .section-two{
     width: calc((100% - 48px) / 3);
