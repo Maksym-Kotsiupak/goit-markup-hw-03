@@ -78,8 +78,7 @@ ul{
 .list .menu{
     /* margin-right: 40px; */
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 /* .list .menu:last-child{
     margin-right: 0;
