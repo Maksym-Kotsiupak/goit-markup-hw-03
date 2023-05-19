@@ -90,6 +90,7 @@ ul{
 
 .list .menu + .menu{
     margin-left: 40px;
+    padding: 24px 0;
 }
 
 .site-nav .link {
@@ -200,7 +201,7 @@ padding: 24px 0;
 /* .section-one{
     width: calc((100% - 72px) / 4);
 } */
-.list .section-one + .section-one{
+.list .section-one {
     margin-left: 24px;
     width: calc((100% - 72px) / 4)
 
@@ -355,7 +356,7 @@ align-items: center;
 
 /* .list .menu+.menu {
     margin-left: 40px;
-} */ */
+} */ 
 
 
 
