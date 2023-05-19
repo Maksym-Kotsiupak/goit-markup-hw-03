@@ -128,7 +128,7 @@ color: var(--accent-color);
     margin: 0;
     padding: 0;
     align-items: center;
-gap: 40px;
+gap: 24px;
 padding: 24px 0;
 }
 .sectionsones{
@@ -408,6 +408,7 @@ align-items: center;
     outline: solid black 1px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
     /* padding-left: 24px;
     padding-right: 24px; */
 }
