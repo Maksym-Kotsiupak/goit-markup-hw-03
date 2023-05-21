@@ -79,7 +79,6 @@ ul{
 .list .menu{
     /* margin-right: 40px; */
     display: block;
-    padding: 24px 0;
 }
 /* .list .menu:last-child{
     margin-right: 0;
@@ -88,10 +87,9 @@ ul{
     margin-left: 76px;
 }  */
 
-.list .menu + .menu{
+/* .list .menu + .menu{
     /* margin-left: 40px; */
-    padding: 24px 0;
-}
+/* } */ 
 
 .site-nav .link {
     color: var(--title-text-color);
