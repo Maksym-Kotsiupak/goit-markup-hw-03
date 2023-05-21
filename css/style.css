@@ -321,6 +321,7 @@ button {
     justify-content: center;
     /* margin-top: 96px; */
     margin-bottom: 72px;
+    gap: 24px;
 }
 .butt:last-child{
     margin-right: 0;
@@ -426,8 +427,9 @@ align-items: center;
 .portf{
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    row-gap: 48px;
+    
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portf .portf-item{
