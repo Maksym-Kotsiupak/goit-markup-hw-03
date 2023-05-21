@@ -126,7 +126,7 @@ color: var(--accent-color);
     padding: 0;
     align-items: center;
 /* gap: 24px; */
-padding: 24px 0;
+/* padding: 24px 0; */
 }
 .sectionsones{
     gap: 24px;
@@ -485,4 +485,7 @@ align-items: center;
 
 .headnav{
     gap: 40px
+}
+.sectiooo{
+    gap: 24px;
 }
