@@ -55,6 +55,7 @@ ul{
         letter-spacing: 0.02em;
         font-family: 'Roboto', sans-serif;
         color: var(--title-text-color);
+        padding: 24 0;
 
 }
 .link:hover,
@@ -88,7 +89,7 @@ ul{
 }  */
 
 .list .menu + .menu{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     padding: 24px 0;
 }
 
@@ -201,7 +202,6 @@ padding: 24px 0;
     width: calc((100% - 72px) / 4);
 } */
 .list .section-one {
-    margin-left: 24px;
     width: calc((100% - 72px) / 4)
 
 }
