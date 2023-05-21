@@ -56,7 +56,6 @@ ul{
         font-family: 'Roboto', sans-serif;
         color: var(--title-text-color);
         padding: 24 0;
-
 }
 .link:hover,
 .link:focus{
@@ -74,7 +73,7 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 24px;
+    /* gap: 24px; */
 }
 .list .menu{
     /* margin-right: 40px; */
@@ -126,7 +125,7 @@ color: var(--accent-color);
     margin: 0;
     padding: 0;
     align-items: center;
-gap: 24px;
+/* gap: 24px; */
 padding: 24px 0;
 }
 .sectionsones{
@@ -484,6 +483,6 @@ align-items: center;
 
 
 
-.list .headnav{
+.headnav{
     gap: 40px
 }
