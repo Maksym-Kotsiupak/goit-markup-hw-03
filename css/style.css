@@ -80,12 +80,11 @@ ul{
     /* margin-right: 40px; */
     display: block;
 }
-/* .list .menu:last-child{
+.list .menu:last-child{
     margin-right: 0;
 }
-.list .menu:first-child{
-    margin-left: 76px;
-}  */
+/* .list .menu:first-child{ */
+    /* margin-left: 76px */ 
 
 /* .list .menu + .menu{
     /* margin-left: 40px; */
