@@ -201,9 +201,9 @@ color: var(--accent-color);
     width: calc((100% - 72px) / 4)
 
 }
-/* .one{
+.one{
     padding: 120px 0;
-} */
+}
 
 
 
@@ -390,9 +390,9 @@ align-items: center;
 
 
 
-.section{
+/* .section{
     padding-top: 120px;
-}
+} */
 
 
 
@@ -496,4 +496,10 @@ align-items: center;
 }
 .secta{
     gap: 24px;
+}
+
+
+
+.name{
+    text-align: center;
 }
