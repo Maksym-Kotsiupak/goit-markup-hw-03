@@ -503,3 +503,7 @@ align-items: center;
 .name{
     text-align: center;
 }
+.visually-hidden{
+            position: fixed;
+            transform: scale(0);
+}
