@@ -506,4 +506,5 @@ align-items: center;
 .visually-hidden{
             position: fixed;
             transform: scale(0);
+            display: none;
 }
